@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background: rgb(220, 198, 111);
+    text-align: center;
+    color: rgb(233, 248, 137);
+  }
+  
+  header {
+    background: rgb(194, 126, 126);
+    padding: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  input {
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+  }
+  
+  section button {
+    padding: 5px 7px;
+    margin: 15px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(233, 248, 137);
+    background: rgb(120, 113, 217);
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  section button:hover {
+    background: rgb(120, 113, 217);
+  }
+  
+  .randomNum {
+    /* background: rgb(73, 73, 73); */
+    width: 90%;
+    margin: 20px auto;
+  }
